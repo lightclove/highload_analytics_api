@@ -77,12 +77,13 @@ HTTP/1.1 200 OK
 {"event_type":"login","count":15}
 ```
 ## Производительность:
+```
 Тестирование на c5.xlarge (4 workers):
 Макс. RPS - 48 000
 Задержка (p95)	23 ms
 Потребление CPU	65% при 30k RPS
 Ошибок (5xx)	<0.1%
-
+```
 ## Тест нагрузкой:
 ```bash
 locust -f locustfile.py --headless -u 1000 -r 200
