@@ -1,8 +1,7 @@
 # High-Load Analytics API
 
 Асинхронный API для обработки событий в реальном времени  
-**Стиль кода**: Pythonic (в духе Гвидо ван Россума)  
-**Архитектура**: Модульная с соблюдением SRP
+**Архитектура**: Pythonic-way, Модульная с соблюдением SRP
 
 [![Python 3.11](https://img.shields.io/badge/Python-3.11%2B-blue)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.103+-green)](https://fastapi.tiangolo.com)
